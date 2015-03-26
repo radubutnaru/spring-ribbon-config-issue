@@ -1,0 +1,7 @@
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    useDnsForFetchingServiceUrls: true
+    eurekaServerDNSName: eureka.local
+    eurekaServerPort: 8761
+    eurekaServerURLContext: eureka
