@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@ExcludeFromComponentScan
 public class CustomersRibbonConfiguration {
 
     @Bean
